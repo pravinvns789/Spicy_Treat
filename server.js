@@ -1,6 +1,6 @@
 const express = require("express");
 
-// const Pizza = require('./models/pizzaModel')
+const Pizza = require('./models/pizzaModel')
 
 const app = express();
 const db = require("./db.js")
