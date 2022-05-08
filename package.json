@@ -5,7 +5,7 @@
   "main": "server.js",
   "engines": {
     "node": "15.7.0",
-    "npm" :"7.4.3"
+    "npm": "7.4.3"
   },
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.4",
+    "mongoose": "^5.13.14",
     "nodemon": "^2.0.7",
     "router": "^1.3.5",
     "stripe": "^8.144.0",

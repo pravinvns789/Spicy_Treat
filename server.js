@@ -1,6 +1,6 @@
 const express = require("express");
 
-const Pizza = require('./models/pizzaModel')
+// const Pizza = require('./models/pizzaModel')
 
 const app = express();
 const db = require("./db.js")
@@ -19,18 +19,21 @@ app.use('/api/users/' , userRoute)
 app.use('/api/orders/' , ordersRoute)
 
 
-if(process.env.NODE_ENV ==='production')
-{
-    app.use('/' , express.static('client/build'))
+// if(process.env.NODE_ENV ==='production')
+// {
+//     app.use('/' , express.static('client/build'))
 
-    app.get('*' , (req , res)=>{
+//     app.get('*' , (req , res)=>{
 
-        res.sendFile(path.resolve(__dirname  , 'client/build/index.html'))
+//         res.sendFile(path.resolve(__dirname  , 'client/build/index.html'))
 
-    })
-}
+//     })
+// }
 
-
+app.get('/', (req, res) => {
+    res.send("server working")
+    
+});
 
 
 
