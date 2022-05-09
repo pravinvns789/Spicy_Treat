@@ -14,11 +14,11 @@ export default function Adminscreen() {
   const { currentUser } = userstate;
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    if (!currentUser.isAdmin) {
-      window.location.href = "/";
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (!currentUser.isAdmin) {
+  //     window.location.href = "/";
+  //   }
+  // }, []);
 
   return (
     <div>
