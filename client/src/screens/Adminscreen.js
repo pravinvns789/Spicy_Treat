@@ -31,7 +31,7 @@ export default function Adminscreen() {
               <Link to={'/admin/userslist'} style={{color: 'white'}}>Users List</Link>
             </li>
             <li>
-            <Link to={'/admin/pizzaslist'} style={{color: 'white'}}>Menu</Link>
+            <Link to={'/admin/pizzaslist'} style={{color: 'white'}}>Edit Menu</Link>
             </li>
             <li>
             <Link to={'/admin/addpizza'} style={{color: 'white'}}>Add items</Link>
