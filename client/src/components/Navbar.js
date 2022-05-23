@@ -9,7 +9,7 @@ export default function Navbar() {
   const dispatch = useDispatch();
   return (
     <div>
-      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
+      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5  rounded" style={{background: "#FFF8DC"}}>
        <img src="./llg.png" alt="" height={25} width={40}/>
         <a className="navbar-brand" href="/">
           Spicy Treat
