@@ -41,7 +41,7 @@ export default function Addpizza() {
   return (
     <div>
       <div className='text-left shadow-lg p-3 mb-5 bg-white rounded'>
-        <h1>Add Pizza</h1>
+        <h1>Add item</h1>
 
         {loading && (<Loading/>)}
         {error && (<Error error='Something went wrong'/>)}
