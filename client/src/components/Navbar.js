@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
-      {/*  <img src="./llg.png" alt="" height={25} width={40}/> */}
+       <img src="./llg.png" alt="" height={25} width={40}/>
         <a className="navbar-brand" href="/">
           Spicy Treat
         </a>
